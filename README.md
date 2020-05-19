@@ -28,7 +28,14 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \penblu\fullcalendar\FullCalendar::widget(); ?>```
+<?= \penblu\fullcalendar\FullCalendar::widget([
+        "containerId" => "pb-cal",
+        "lang" => Yii::$app->language,
+        "dataEvents" => $exam,//Json::encode(array()),
+        "maxWidth" => "100%",
+        "margin" => "0px auto",
+        "eventClickFn" => "showEvent",
+]); ?>```
 
 
 # FullCalendar [![Build Status](https://travis-ci.com/fullcalendar/fullcalendar.svg?branch=master)](https://travis-ci.com/fullcalendar/fullcalendar)
