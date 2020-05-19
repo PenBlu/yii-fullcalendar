@@ -1,0 +1,23 @@
+{
+    "name": "penblu/fullcalendar",
+    "description": "Extension creada por PenBlu para el uso de la libreria jquery-fullcalendar",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "extension", "fullcalendar"],
+    "minimum-stability": "stable",
+    "support": {
+        "source": "https://github.com/fullcalendar/fullcalendar"
+    },
+    "license": "GPL-2.0-or-later",
+    "authors": [{
+        "name": "Eduardo Cueva",
+        "email": "ecueva@penblu.com"
+    }],
+    "require": {
+        "yiisoft/yii2": "~2.0.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "penblu\\fullcalendar\\": ""
+        }
+    }
+}
